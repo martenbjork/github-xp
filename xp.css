@@ -166,3 +166,12 @@ body {
 .footer {
   display: none;
 }
+
+.js-notice {
+  position: fixed;
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
