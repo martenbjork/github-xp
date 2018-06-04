@@ -10,11 +10,15 @@ body {
 }
 
 /* Header */
-.Header {
-  position: fixed;
+.Header,
+.Header.position-relative {
+  position: fixed !important;
   left: 0;
   bottom: 0;
   width: 100%;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  font-size: inherit !important;
   padding-left: 140px;
   background: linear-gradient(
     to top,
@@ -37,7 +41,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 55px;
+  height: auto;
+  bottom: 0;
   padding: 14px;
   width: 146px;
   border-radius: 3px;
@@ -118,7 +123,7 @@ body {
 }
 
 /* Window top bar */
-[role="main"] > div > div:before {
+[role="main"]:before {
   content: "";
   display: block;
   position: absolute;
@@ -140,7 +145,7 @@ body {
   box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-[role="main"] > div > div:after {
+[role="main"]:after {
   content: "";
   display: block;
   position: absolute;
