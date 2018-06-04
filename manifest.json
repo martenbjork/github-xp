@@ -5,7 +5,7 @@
   "manifest_version": 4,
   "content_scripts": [
     {
-      "matches": ["https://*.github.com/*"],
+      "matches": ["https://github.com/*"],
       "css": ["xp.css"]
     }
   ]
