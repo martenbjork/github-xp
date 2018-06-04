@@ -1,6 +1,6 @@
 {
   "name": "Github XP",
-  "version": "1.2",
+  "version": "3.11",
   "description": "Github <3 Microsoft!",
   "manifest_version": 2,
   "content_scripts": [
