@@ -1,0 +1,12 @@
+{
+  "name": "Gitbub XP",
+  "version": "1.0",
+  "description": "Github <3 Microsoft!",
+  "manifest_version": 4,
+  "content_scripts": [
+    {
+      "matches": ["https://*.github.com/*"],
+      "css": ["xp.css"]
+    }
+  ]
+}
