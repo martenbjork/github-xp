@@ -167,7 +167,9 @@ body {
   display: none;
 }
 
-.js-notice {
+body > .js-notice,
+  /* Very questionable selector but seems to only affect fixed banners for now */
+.py-2.px-3.f5.rounded-0 {
   position: fixed;
   background: black;
   top: 0;
