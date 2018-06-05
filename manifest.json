@@ -1,12 +1,16 @@
 {
   "name": "Github XP",
-  "version": "3.14",
+  "version": "4.04",
   "description": "Github <3 Microsoft!",
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["https://github.com/*"],
-      "css": ["xp.css"]
+      "matches": [
+        "https://github.com/*"
+      ],
+      "css": [
+        "xp.css"
+      ]
     }
   ],
   "icons": {
