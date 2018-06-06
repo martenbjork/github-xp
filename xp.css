@@ -201,6 +201,7 @@ title {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  line-height: 18px;
 }
 
 /* BSOD-style 404s */
