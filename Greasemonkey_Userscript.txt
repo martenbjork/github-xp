@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         GitHub XP
-// @namespace    http://tampermonkey.net/
+// @name         Use GitHub XP Style by martenbjork
+// @namespace    http://somerandomcompany.com/github-xp-as-userscript/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Set GitHub theme to Windows XP by martenbjork
 // @author       You
 // @match        http*://*.github.com/*
 // @grant        GM_xmlhttpRequest
