@@ -305,7 +305,7 @@ title {
   }
 }
 
-title:after {
+body[class]:after {
   content: "";
   display: block;
   position: fixed;
@@ -317,7 +317,7 @@ title:after {
   background-size: contain;
 }
 
-title:before {
+body[class]:before {
   animation: eye-blink infinite 6s;
   content: "";
   display: block;
