@@ -202,3 +202,41 @@ title {
   -ms-user-select: none;
   user-select: none;
 }
+
+/* BSOD-style 404s */
+#parallax_wrapper {
+  position: relative;
+  z-index: 1000 !important;
+}
+#parallax_illustration {
+  display: block !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: blue !important;
+  z-index: 100;
+  filter: contrast(50);
+  mix-blend-mode: hard-light;
+}
+#parallax_error_text {
+  display: block !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  margin: auto !important;
+  filter: brightness(100%);
+  image-rendering: pixelated;
+  transform: none !important;
+}
+#parallax_octocat,
+#parallax_speeder,
+#parallax_octocatshadow,
+#parallax_speedershadow,
+#parallax_building_1,
+#parallax_building_2 {
+  display: none;
+}
