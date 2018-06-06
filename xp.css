@@ -177,3 +177,7 @@ body > .js-notice,
   width: 100%;
   z-index: 100;
 }
+
+.pinned-repo-item {
+  width: 345px;
+}
