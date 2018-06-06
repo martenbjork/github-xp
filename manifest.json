@@ -7,7 +7,7 @@
     {
       "matches": [
         "https://github.com/*",
-         "https://github.*.com/*"
+        "https://github.*.com/*"
       ],
       "css": [
         "xp.css"
