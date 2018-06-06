@@ -1,0 +1,31 @@
+// ==UserScript==
+// @name         GitHub XP
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        http*://*.github.com/*
+// @grant        GM_xmlhttpRequest
+// ==/UserScript==
+(function() {
+    'use strict';
+    var filename = "https://raw.githubusercontent.com/martenbjork/github-xp/master/xp.css";
+    var css = "";
+    var test = GM_xmlhttpRequest(
+    {
+        method: "GET",
+        url: filename,
+        onload: function(response) {
+            //alert(filename + "\r\nTest:" + response.responseText);
+            css = response.responseText.trim();
+
+            var fileref=document.createElement("style")
+        fileref.setAttribute("type", "text/css")
+        fileref.innerHTML= css
+
+        document.getElementsByTagName("head")[0].appendChild(fileref);
+
+        }
+    });
+
+})();
