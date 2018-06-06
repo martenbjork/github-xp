@@ -181,3 +181,24 @@ body > .js-notice,
 .pinned-repo-item {
   width: 345px !important;
 }
+
+/* Title wizardry by chris-morgan https://github.com/martenbjork/github-xp/issues/13 */
+head {
+  display: block;
+}
+
+title {
+  display: block;
+  color: white;
+  position: absolute;
+  top: 31px;
+  left: calc((100vw - 1000px) / 2);
+  z-index: 1;
+  right: calc((100vw - 1000px) / 2 + 80px);
+  text-overflow: ellipsis;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
