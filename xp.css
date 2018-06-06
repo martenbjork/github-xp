@@ -317,6 +317,7 @@ title:before {
   font-weight: normal;
   cursor: default;
   pointer-events: none;
+  z-index: 100;
 }
 
 .js-issue-row:first-child:before,
