@@ -352,5 +352,5 @@ title:before {
 }
 
 .compare-pr-placeholder:after {
-  content: "It looks like your sending a pull request. " !important;
+  content: "It looks like your sending a pull request. Search MSN for 'request'?" !important;
 }
