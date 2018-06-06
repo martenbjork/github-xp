@@ -215,7 +215,7 @@ title {
   left: 0 !important;
   width: 100% !important;
   height: 100% !important;
-  background: 0102ac !important;
+  background: #0102ac !important;
   z-index: 100;
   filter: contrast(50);
   mix-blend-mode: hard-light;
