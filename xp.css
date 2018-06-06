@@ -204,6 +204,17 @@ title {
 }
 
 /* BSOD-style 404s */
+@keyframes flicker {
+  0% {
+    transform: translateY(-150%);
+  }
+  2% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
 #parallax_wrapper {
   position: relative;
   z-index: 1000 !important;
@@ -217,8 +228,6 @@ title {
   height: 100% !important;
   background: #0102ac !important;
   z-index: 100;
-  filter: contrast(50);
-  mix-blend-mode: hard-light;
 }
 #parallax_error_text {
   display: block !important;
@@ -231,6 +240,9 @@ title {
   filter: brightness(100%);
   image-rendering: pixelated;
   transform: none !important;
+  filter: contrast(50);
+  mix-blend-mode: hard-light;
+  animation: flicker 3s both infinite;
 }
 #parallax_octocat,
 #parallax_speeder,
