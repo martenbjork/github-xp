@@ -179,5 +179,5 @@ body > .js-notice,
 }
 
 .pinned-repo-item {
-  width: 345px;
+  width: 345px !important;
 }
