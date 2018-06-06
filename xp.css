@@ -340,7 +340,7 @@ title:before {
   content: "So many issues! Try adding some clip art to brighten the mood." !important;
 }
 .repository-meta-content:after {
-  content: "It looks like your looking at a repo. It has files. Need some help with files? Files!" !important;
+  content: "It looks like you're looking at a repo. It has files. Need some help with files? Files!" !important;
 }
 
 #partial-discussion-header:after {
@@ -352,5 +352,5 @@ title:before {
 }
 
 .compare-pr-placeholder:after {
-  content: "It looks like your sending a pull request. Search MSN for 'request'?" !important;
+  content: "It looks like you're sending a pull request. Search MSN for 'request'?" !important;
 }
