@@ -182,6 +182,14 @@ body > .js-notice,
   width: 345px !important;
 }
 
+#js-flash-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 /* Title wizardry by chris-morgan https://github.com/martenbjork/github-xp/issues/13 */
 head {
   display: block;
