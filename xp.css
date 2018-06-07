@@ -14,9 +14,10 @@ body {
 body:not([class]),
 body:not([class]) p,
 body:not([class]) strong {
-  background: #0100AB;
+  background: #0100ab;
   color: #ccc;
-  font-family: "Lucida Console";
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+    Verdana, sans-serif;
   font-weight: normal !important;
   font-size: 16px;
   line-height: 1.2;
@@ -30,7 +31,7 @@ body:not([class]) .container::after {
 }
 /* BSOD prefix */
 body:not([class]) .container::before {
-  content: "A problem has been detected and Windows has been shut down to prevent damage to your computer."
+  content: "A problem has been detected and Windows has been shut down to prevent damage to your computer.";
 }
 /* BSOD has no unicorn, links and icon */
 body:not([class]) .container p:first-child,
@@ -41,7 +42,7 @@ body:not([class]) .container a {
 }
 /* BSOD suffix */
 body:not([class]) .container::after {
-  content: "If this is the first time you've seen this error screen, restart your computer. If this screen appears again, follow these steps:\A\A Check to make sure any new hardware or software is properly installed. If this is a new installation, ask your hardware or software manufacturer for any Windows updates you might need.\A\A If problems continue, disable or remove any newly installed hardware or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode.\A\A Technical Information:\A\A *** DON'T STOP: 0x000LOVE, 0x000CODE, 0x000LOVE, 0x000LIFE."
+  content: "If this is the first time you've seen this error screen, restart your computer. If this screen appears again, follow these steps:\A\A Check to make sure any new hardware or software is properly installed. If this is a new installation, ask your hardware or software manufacturer for any Windows updates you might need.\A\A If problems continue, disable or remove any newly installed hardware or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode.\A\A Technical Information:\A\A *** DON'T STOP: 0x000LOVE, 0x000CODE, 0x000LOVE, 0x000LIFE.";
 }
 
 /* Header */
