@@ -226,6 +226,10 @@ body > .js-notice,
   z-index: 100;
 }
 
+.MarketplaceJumbotron {
+  margin: -3px -20px;
+}
+
 /* Title wizardry by chris-morgan https://github.com/martenbjork/github-xp/issues/13 */
 head {
   display: block;
