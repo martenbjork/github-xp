@@ -196,6 +196,8 @@ title {
   z-index: 1;
   right: calc((100vw - 1000px) / 2 + 80px);
   text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   cursor: default;
   -webkit-user-select: none;
   -moz-user-select: none;
