@@ -91,6 +91,7 @@ body:not([class]) .container::after {
   ) !important;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
   text-align: center;
+  white-space: initial;
 }
 
 .header-logo-invertocat:before {
@@ -100,6 +101,7 @@ body:not([class]) .container::after {
   top: 5px;
   left: -2px;
   font-weight: bold;
+  white-space: initial;
 }
 
 .header-logo-invertocat svg {
