@@ -250,6 +250,10 @@ title {
   line-height: 18px;
 }
 
+.octotree-show title {
+  transform: translateX(115px);
+}
+
 /* BSOD-style 404s */
 @keyframes flicker {
   0% {
