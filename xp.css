@@ -9,6 +9,41 @@ body {
   -webkit-font-smoothing: none;
 }
 
+/* 503 page */
+/* BSOD color */
+body:not([class]),
+body:not([class]) p,
+body:not([class]) strong {
+  background: #0100AB;
+  color: #ccc;
+  font-family: "Lucida Console";
+  font-weight: normal !important;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: left;
+}
+body:not([class]) .container::before,
+body:not([class]) .container::after {
+  display: block;
+  text-align: left;
+  white-space: pre-wrap;
+}
+/* BSOD prefix */
+body:not([class]) .container::before {
+  content: "A problem has been detected and Windows has been shut down to prevent damage to your computer."
+}
+/* BSOD has no unicorn, links and icon */
+body:not([class]) .container p:first-child,
+body:not([class]) .container p:nth-child(3),
+body:not([class]) .container #suggestions,
+body:not([class]) .container a {
+  display: none;
+}
+/* BSOD suffix */
+body:not([class]) .container::after {
+  content: "If this is the first time you've seen this error screen, restart your computer. If this screen appears again, follow these steps:\A\A Check to make sure any new hardware or software is properly installed. If this is a new installation, ask your hardware or software manufacturer for any Windows updates you might need.\A\A If problems continue, disable or remove any newly installed hardware or software. Disable BIOS memory options such as caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer, press F8 to select Advanced Startup Options, and then select Safe Mode.\A\A Technical Information:\A\A *** DON'T STOP: 0x000LOVE, 0x000CODE, 0x000LOVE, 0x000LIFE."
+}
+
 /* Header */
 .Header,
 .Header.position-relative {
@@ -204,6 +239,8 @@ title {
   z-index: 1;
   right: calc((100vw - 1000px) / 2 + 80px);
   text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   cursor: default;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -278,7 +315,7 @@ title {
   }
 }
 
-title:after {
+body[class]:after {
   content: "";
   display: block;
   position: fixed;
@@ -290,7 +327,7 @@ title:after {
   background-size: contain;
 }
 
-title:before {
+body[class]:before {
   animation: eye-blink infinite 6s;
   content: "";
   display: block;
@@ -325,6 +362,7 @@ title:before {
   font-weight: normal;
   cursor: default;
   pointer-events: none;
+  z-index: 100;
 }
 
 .js-issue-row:first-child:before,
