@@ -81,21 +81,44 @@ body:not([class]) .container::after {
   bottom: 0;
   padding: 14px;
   width: 146px;
-  border-radius: 3px;
+  border-radius: 0px 22.5px 22.5px 0px;
   background: linear-gradient(
     to top,
-    #1f921f 0%,
-    #178a17 50%,
-    #2e9c2e 95%,
-    #063d06 100%
+    #2f7745 0%,
+    #2e932f 12%,
+    #499748 88%,
+    #96c496 95%,
+    #367e36 100%
   ) !important;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
   text-align: center;
   white-space: initial;
 }
 
+.header-logo-invertocat:hover {
+  background: linear-gradient(
+    to top,
+    #1f882d 0%,
+    #37bd37 12%,
+    #56b355 88%,
+    #8acd8a 95%,
+    #208823 100%
+  ) !important;
+}
+
+.header-logo-invertocat:active {
+  background: linear-gradient(
+    to top,
+    #1a5f1b 0%,
+    #1b871b 12%,
+    #258125 88%,
+    #377537 95%,
+    #174117 100%
+  ) !important;
+}
+
 .header-logo-invertocat:before {
-  content: "Github XP";
+  content: "GitHub XP";
   font-style: italic;
   position: relative;
   top: 5px;
