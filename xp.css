@@ -95,7 +95,7 @@ body:not([class]) .container::after {
   white-space: initial;
 }
 
-.header-logo-invertocat:hover {
+.header-logo-invertocat:hover, .header-logo-invertocat:focus {
   background: linear-gradient(
     to top,
     #1f882d 0%,
@@ -162,6 +162,40 @@ body:not([class]) .container::after {
   background: #ffffe1 !important;
   border: 1px solid black !important;
   border-radius: 8px !important;
+}
+
+.Header .HeaderNavlink, .Header .notification-indicator {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+  border-radius: 5px;
+  border: solid 2px transparent;
+}
+.Header summary.HeaderNavlink, .Header .notification-indicator {
+  padding: 3px !important;
+  margin: 0px !important;
+}
+
+.Header .HeaderNavlink:hover, .Header .HeaderNavlink:focus,
+.Header .notification-indicator:hover, .Header .notifiation-indicator:focus {
+  background: linear-gradient(
+    to top,
+    #2560c8 0%,
+    #5091ee 12%,
+    #3a7ee9 88%,
+    #5091ee 100%
+  ) !important;
+  border: solid 2px #2363cc;
+}
+.Header .HeaderNavlink:active,
+.Header .notification-indicator:active {
+  background: linear-gradient(
+    to top,
+    #0d47c1 0%,
+    #124ac7 12%,
+    #0e48c7 88%,
+    #0b3787 100%
+  ) !important;
+  border: solid 2px #2363cc;
 }
 
 /* Wrapper element (main "window") */
