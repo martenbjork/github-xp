@@ -79,8 +79,8 @@ body:not([class]) .container::after {
   left: 0;
   height: auto;
   bottom: 0;
-  padding: 14px;
-  width: 146px;
+  padding: 14px 10px;
+  width: 151px;
   border-radius: 0px 22.5px 22.5px 0px;
   background: linear-gradient(
     to top,
@@ -125,10 +125,13 @@ body:not([class]) .container::after {
   left: -2px;
   font-weight: bold;
   white-space: initial;
+  font-size: 18px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.75);
 }
 
 .header-logo-invertocat svg {
   transform: scale(0.7);
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.75));
 }
 
 /* Make header tooltips/menus yellow. Fix positioning */
@@ -277,6 +280,8 @@ title {
   -ms-user-select: none;
   user-select: none;
   line-height: 18px;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
 }
 
 .octotree-show title {
