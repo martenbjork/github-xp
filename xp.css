@@ -95,7 +95,7 @@ body:not([class]) .container::after {
 }
 
 .header-logo-invertocat:before {
-  content: "Github XP";
+  content: "GitHub XP";
   font-style: italic;
   position: relative;
   top: 5px;
