@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Use GitHub XP Style by martenbjork
-// @namespace    http://somerandomcompany.com/github-xp-as-userscript/
+// @namespace    https://somerandomcompany.com/github-xp-as-userscript/
 // @version      0.1
 // @description  Set GitHub theme to Windows XP by martenbjork
 // @author       You
@@ -16,7 +16,6 @@
         method: "GET",
         url: filename,
         onload: function(response) {
-            //alert(filename + "\r\nTest:" + response.responseText);
             css = response.responseText.trim();
 
             var fileref=document.createElement("style")
