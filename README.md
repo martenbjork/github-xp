@@ -1,4 +1,4 @@
-February 2019 Update: I received a cease and desist letter from a company claiming to work for Microsoft. 🎉 Following up…
+February 2019 Update: I received a cease and desist letter from a company claiming to work for Microsoft. The extension has subsequently been removed from the Chrome Store. 🎉 Following up…
 
 # Github XP
 Microsoft + GitHub = ❤️. Make it official by giving your GitHub experience some Windows XP flair.
