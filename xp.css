@@ -64,7 +64,7 @@ body:not([class]) .container::after {
     #3888e9 95%,
     #3168d5 100%
   ) !important;
-  z-index: 100 !important;
+  z-index: 1000 !important;
 }
 
 .Header .d-flex {
@@ -123,6 +123,10 @@ body:not([class]) .container::after {
 .Header .tooltipped:before,
 .header-search-key-slash {
   display: none;
+}
+
+.dropdown-menu:before{
+	border-bottom-color: transparent !important;
 }
 
 .Header .header-search-wrapper {
