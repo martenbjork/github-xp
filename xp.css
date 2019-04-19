@@ -139,7 +139,7 @@ body:not([class]) .container::after {
 }
 
 /* Wrapper element (main "window") */
-[role="main"] {
+.application-main {
   position: relative;
   box-sizing: initial;
   background: white;
@@ -154,14 +154,14 @@ body:not([class]) .container::after {
   box-shadow: 0 0 0 2px #2b6dd1;
 }
 
-[role="main"]:after {
+.application-main:after {
   content: "";
   display: block;
   clear: both;
 }
 
 /* Window top bar */
-[role="main"]:before {
+.application-main:before {
   content: "";
   display: block;
   position: absolute;
@@ -183,7 +183,7 @@ body:not([class]) .container::after {
   box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-[role="main"]:after {
+.application-main:after {
   content: "";
   display: block;
   position: absolute;
