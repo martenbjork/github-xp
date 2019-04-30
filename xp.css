@@ -109,7 +109,7 @@ header .d-flex {
 }
 
 /* Make header tooltips/menus yellow. Fix positioning */
-header .dropdown .dropdown-menu,
+header .dropdown-menu,
 header .tooltipped-s::after,
 header .tooltipped-se::after,
 header .tooltipped-sw::after {
@@ -119,7 +119,8 @@ header .tooltipped-sw::after {
   color: black;
 }
 
-header .dropdown .dropdown-menu:after,
+header .dropdown-menu:before,
+header .dropdown-menu:after,
 header .tooltipped:before,
 .header-search-key-slash {
   display: none;
